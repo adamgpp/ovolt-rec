@@ -42,6 +42,7 @@ Update the values according to your local setup.
 Create the database schema:  
 ```bash
 php bin/console doctrine:schema:create
+php bin/console doctrine:schema:create --env=test
 ```
 ---
 
